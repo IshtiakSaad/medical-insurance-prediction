@@ -34,7 +34,7 @@ medical-insurance-prediction/
 └── insurance.csv                   # Dataset
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Local Setup
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains 1,338 records with the following features:
 
@@ -68,7 +68,7 @@ The dataset contains 1,338 records with the following features:
 | region | Categorical | Geographic region (northeast, northwest, southeast, southwest) |
 | charges | Numeric | **Target**: Annual medical insurance costs |
 
-## 🔄 ML Pipeline
+## ML Pipeline
 
 ### 1. Data Preprocessing (5 Steps)
 1. **Missing Value Check** - Verified no missing values
@@ -95,7 +95,7 @@ RandomForestRegressor(
 )
 ```
 
-## 💡 Usage Example
+## Usage Example
 
 ```python
 # Input features
@@ -111,12 +111,12 @@ predicted_cost = model.predict(input_data)
 # Output: $5,234.67
 ```
 
-## 🌐 Live Demo
+## Live Demo
 
 Try the live demo on Hugging Face Spaces:
-[🤗 Medical Insurance Predictor]()
+[Medical Insurance Predictor](https://huggingface.co/spaces/ishtiaksaad/medical-insurance-predictor)
 
-## 📈 Model Insights
+## Model Insights
 
 The model identified the following key factors affecting insurance costs:
 1. **Smoking status** - Most significant predictor
@@ -125,7 +125,7 @@ The model identified the following key factors affecting insurance costs:
 4. **Number of children** - Moderate impact
 5. **Region** - Minor variations across regions
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Implement additional models (XGBoost, LightGBM)
 - [ ] Add SHAP values for interpretability
@@ -133,6 +133,6 @@ The model identified the following key factors affecting insurance costs:
 - [ ] Expand dataset with more features
 - [ ] Add batch prediction capability
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
