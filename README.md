@@ -12,15 +12,6 @@ This project implements a complete ML pipeline to predict medical insurance cost
 - **Interactive Gradio interface** for easy predictions
 - **High accuracy** with R² score of ~0.84
 
-## Model Performance
-
-| Metric | Value |
-|--------|-------|
-| R² Score | 0.841 |
-| MAE | $2,191 |
-| RMSE | $4,148 |
-| Cross-validation R² | 0.788 ± 0.050 |
-
 ## Technologies Used
 
 - Python 3.10+
