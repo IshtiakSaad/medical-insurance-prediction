@@ -1,3 +1,5 @@
+.gitignore
+
 venv
 .gradio
 .ipynb_checkpoints
